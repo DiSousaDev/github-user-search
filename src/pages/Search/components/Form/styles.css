@@ -1,0 +1,29 @@
+.container {
+    height: 270px;
+    background: #E6F7FF;
+    padding: 65px 0 0 95px;
+    border-radius: 16px;
+}
+
+.search-title {
+    font-size: 38px;
+    line-height: 46px;
+    color: #262626;
+    margin-bottom: 12px;
+}
+
+.search-user {
+    background-color: #FFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 676px;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+::placeholder {
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 24px;
+}
