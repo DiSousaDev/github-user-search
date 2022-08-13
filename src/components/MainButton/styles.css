@@ -9,3 +9,7 @@
 .btn:hover {
     color: #FFF;
 }
+
+.btn:focus {
+    color: #FFF;
+}
