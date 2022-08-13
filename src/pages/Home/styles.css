@@ -1,0 +1,48 @@
+.main-container {
+    padding: 20px 0 0 20px;
+}
+
+.title-container {
+    margin-bottom: 30px;
+}
+
+.title-container h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.title-container p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #7E7E7E;
+    letter-spacing: 0.02em;
+}
+
+@media (min-width: 576px) {
+    .main-container {
+        padding: 20px 0 0 40px;
+    }
+
+    .title-container h1 {
+        font-size: 32px;
+    }
+    
+    .title-container p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-container {
+        padding: 40px 0 0 40px;
+    }
+
+    .title-container h1 {
+        font-size: 48px;
+    }
+    
+    .title-container p {
+        font-size: 24px;
+    }
+}
